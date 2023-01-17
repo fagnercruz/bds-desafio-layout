@@ -1,6 +1,6 @@
 import './style.css';
 import ImgHeader from 'assets/images/car-header-1.png';
-import Buttom from 'components/ButtomCatalog';
+import ButtonCatalog from 'components/ButtonCatalog';
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
  
                 <div className="base-card secondary-card">
-                    <Buttom />
+                    <ButtonCatalog />
                     <p>Começe agora a navegar</p>
                 </div>
 

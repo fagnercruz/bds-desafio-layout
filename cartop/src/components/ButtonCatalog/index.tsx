@@ -1,6 +1,6 @@
 import './style.css';
 
-const Buttom = () => {
+const ButtonCatalog = () => {
     return (
         <div className="btn btn-site">
             VER CATÁLOGO
@@ -9,4 +9,4 @@ const Buttom = () => {
 
 };
 
-export default Buttom;
+export default ButtonCatalog;
