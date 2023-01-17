@@ -3,8 +3,7 @@
     padding-left: 40px;
 }
 .navLogo, .navLogo:hover {
-    color: #00285F;
-    text-decoration: none;
+    color: #00285F; 
 }
 
 .main-menu{
@@ -15,7 +14,6 @@
 }
 .main-menu a, .main-menu a:hover {
     color: #00285F;
-    text-decoration: none;
 }
 
 .main-menu a:hover {
