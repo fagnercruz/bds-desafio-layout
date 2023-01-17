@@ -1,6 +1,7 @@
 import "./style.css";
 import '@popperjs/core';
 import 'bootstrap/js/src/collapse';
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,9 +9,9 @@ const Navbar = () => {
       
       <div className="container-fluid">
         
-        <a href="/" className="navLogo">
+        <Link to="/" className="navLogo">
           <h4>Carros Top</h4>
-        </a>
+        </Link>
 
         <button
           className="navbar-toggler"
@@ -28,10 +29,10 @@ const Navbar = () => {
         <div className="menuItens collapse navbar-collapse" id="carrostop-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="link">HOME</a>
+              <NavLink exact to="/" activeClassName="active">HOME</NavLink>
             </li>
             <li>
-              <a href="link">CATÁLOGO</a>
+              <NavLink to="/catalogo" activeClassName="active">CATÁLOGO</NavLink>
             </li>
           </ul>
         </div>

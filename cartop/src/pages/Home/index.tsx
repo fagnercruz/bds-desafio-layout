@@ -1,6 +1,6 @@
 import './style.css';
 import ImgHeader from 'assets/images/car-header-1.png';
-import Buttom from 'components/Buttom';
+import Buttom from 'components/ButtomCatalog';
 
 const Home = () => {
     return (

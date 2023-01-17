@@ -1,0 +1,22 @@
+.productCard-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px 0 15px;
+}
+
+.productCard-container img{
+    width: 220px;
+    margin-bottom: 8px;
+}
+.productCard-info-container {
+    width: 264px;
+    text-align: center;
+}
+.productCard-info-container h3 {
+    margin-bottom: 14px;
+}
+.productCard-info-container p {
+    margin-bottom: 38px;
+}
