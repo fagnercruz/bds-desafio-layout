@@ -9,8 +9,8 @@
 .main-menu{
     display: flex;
     font-size: 18px;
-    width: 380px;
-    justify-content: space-between;
+
+
 }
 .main-menu a, .main-menu a:hover {
     color: #00285F;
@@ -26,4 +26,23 @@
 }
 .navbar-dark .navbar-toggler{
     color: #00285F;
+}
+
+@media (min-width: 768px){
+    .menuItens {
+        justify-content: flex-end;
+    }
+    .main-nav {
+        padding: 0 10px;
+    }
+
+    .main-menu {
+        gap: 70px;
+    }
+}
+
+@media (min-width: 1280px){
+    .container-fluid {
+        width: 979px;
+    }
 }

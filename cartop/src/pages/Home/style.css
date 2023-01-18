@@ -42,3 +42,150 @@
     padding: 0;
     font-size: 18px;
 }
+
+@media (min-width: 576px){
+    .main-card {
+        margin: 20px 20px;
+    }
+    .main-card-image img {
+        width: 333px;
+        margin:22px 0 19px 0;
+    }
+
+    .main-card-contents h1 {
+        font-size: 36px;
+        margin-bottom: 1px;
+    }
+
+    .main-card-contents{
+        width: 420px;
+    }
+
+    .main-card-contents p {
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 41px;
+    }
+
+    .secondary-card {
+        flex-direction: row;
+        justify-content: center;
+        padding: 28px 0 25px 0;
+        margin: 10px 20px;
+    }
+
+    .secondary-card p {
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        padding-left: 16px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px){
+    .main-card {
+        margin: 30px 20px;
+    }
+    .main-card-image img {
+        width: 333px;
+        margin:79px 0 37px 0;
+    }
+
+    .main-card-contents h1 {
+        margin: 0 0 1px 0;
+    }
+
+    .main-card-contents{
+        width: 437px;
+        text-align: center;
+    }
+
+    .main-card-contents p {
+        margin-bottom: 76px;
+    }
+
+    .secondary-card {
+        padding: 42px 0;
+    }
+
+    .secondary-card p {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 992px){
+    .main-card {
+        margin: 30px 30px;
+    }
+    .main-card-image img {
+        width: 455px;
+        margin: 82px 0 17px 0;
+    }
+
+    .main-card-contents h1 {
+        margin: 0 0 1px 0;
+    }
+
+    .main-card-contents{
+        width: 455px;
+        text-align: center;
+    }
+
+    .main-card-contents p {
+        margin-bottom: 124px;
+    }
+
+    .secondary-card {
+        padding: 42px 85px;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+
+    .secondary-card p {
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 1280px){
+    .container-geral {
+        width: 979px;
+        margin: 30px auto;
+    }
+    .main-card {
+        margin: 0;
+        flex-direction: row;
+        justify-content: center;
+        padding: 83px 78px;
+        box-sizing: border-box;
+    }
+    .main-card-image img {
+        width: 333px;
+        margin: 0;
+    }
+
+    .main-card-contents h1 {
+        margin: 0 0 1px 0;
+    }
+
+    .main-card-contents{
+        width: 455px;
+        text-align: center;
+    }
+
+    .main-card-contents p {
+        margin-bottom: 0;
+    }
+
+    .secondary-card {
+        padding: 42px 85px;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        margin: 30px 0 0 0;
+    }
+
+    .secondary-card p {
+        padding-left: 40px;
+    }
+}

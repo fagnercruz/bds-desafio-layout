@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const ButtonCatalog = () => {
     return (
         <div className="btn btn-site">
-            VER CATÁLOGO
+            <Link to="/catalogo">VER CATÁLOGO</Link>
         </div>
     );
 

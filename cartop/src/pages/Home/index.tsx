@@ -5,7 +5,7 @@ import ButtonCatalog from 'components/ButtonCatalog';
 const Home = () => {
     return (
         <>
-            <div>
+            <div className='container-geral'>
                 <div className='base-card main-card'>
                     <div className='main-card-contents'> 
                         <h1>O carro perfeito para você</h1>
